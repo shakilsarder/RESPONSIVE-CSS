@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <Style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width: 250px;
+            height: 205px;
+            border: 2px solid red;
+            border-radius: 10px;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+        }
+     
+        .photo img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .photo-detail{
+            display: none;
+            position: absolute;
+            width: 250px;
+            top: 0;
+        }
+        .photo-detail h3{
+            background-color: rgb(221, 66, 55);
+            text-align: center;
+            color: white;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgba(218, 218, 110, 0.253);
+        }
+        .photo-frame:hover .photo{
+            transform: scale(1.5) rotate(80deg);
+            transition: transform 2s ease-in-out;
+
+        }
+    </Style>
+</head>
+<body>
+    <h1>This is My Food blog</h1>
+    <section>
+        <h3>Food blog gallery</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/1.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Chicken Spaghetti</h3>
+                        <p>Chicken spaghetti is an American baked spaghetti dish made with a cream sauce,
+                             topped with cheese and baked until bubbly.The spaghetti is broken up in small pieces before being cooked</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
